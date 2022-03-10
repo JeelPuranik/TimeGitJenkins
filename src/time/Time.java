@@ -18,13 +18,13 @@ import javax.swing.JOptionPane;
  * Used  as a base class
  * for the testing exercise with JUnit
  *  Winter 2021
- */
+ */	
 public class Time
 {
 	public static void main(String[] args) 
 	{
 		
-		int totalSeconds = getTotalSeconds("10:10:10");
+		int totalSeconds = getTotalSeconds("GitHub 10:10:10");
 		System.out.println("Total Seconds = "+totalSeconds);
 	}
 		
